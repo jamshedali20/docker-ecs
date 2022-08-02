@@ -1,0 +1,3 @@
+#!/bin/sh
+
+TEAM_ONE_NAME="$FLASK_API_KEY"
