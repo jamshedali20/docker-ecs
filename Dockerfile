@@ -1,8 +1,9 @@
-FROM nginx:alpine
+FROM python:3.9
+
 
 WORKDIR /app
 
 COPY . /app
 
-ENTRYPOINT ["/app/bash.sh"]
-CMD ["run"]
+ENTRYPOINT [ "python" ]
+CMD ["flask_app.py" ]
